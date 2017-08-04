@@ -32,4 +32,6 @@ application:
           class: \DennisDigital\Drupal\Console\Command\Site\TestCommand
         'site:update':
           class: \DennisDigital\Drupal\Console\Command\Site\UpdateCommand
+        'site:foo':
+          class: \DennisDigital\Drupal\Console\Command\Site\FooCommand
       name: { }
